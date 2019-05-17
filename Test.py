@@ -2,6 +2,7 @@ import unittest
 from Bowling import *
 
 class testBowling(unittest.TestCase):
+
     def testOneFrame(self):
         game = Bowling()
         self.assertTrue(isinstance(game.roll(), list))
@@ -18,6 +19,24 @@ class testBowling(unittest.TestCase):
         self.assertTrue(sum([sum(one) for one in game.game()])>=0)
         self.assertTrue(sum([sum(one) for one in game.game()])<=300)
 
+    def testCalculateScore(self):
+        game = Bowling()
+        self.assertTrue(game.calculateScore([[3,0],[2,2],[6,4]]) == 17)
+
+    def testIsSpare(self):
+        game = Bowling()
+        self.assertTrue(game.isSpare([8,2]))
+        self.assertFalse(game.isSpare([3,4]))
+        self.assertFalse(game.isSpare([10,0]))
+
+    def testIsStrike(self):
+        game = Bowling()
+        self.assertTrue(game.isStrike([10,0]))
+        self.assertFalse(game.isStrike([2,8]))
+        self.assertFalse(game.isStrike([3,2]))
+
+
 if __name__== '__main__':
     unittest.main()
+
 

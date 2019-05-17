@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="685ed5db-b16e-4c31-9a16-512d835e49da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bowling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xUnit_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bowling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bowling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TDD_xUnit$Test.coverage" NAME="Test Coverage Results" MODIFIED="1558128841850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TDD_xUnit$Test.coverage" NAME="Test Coverage Results" MODIFIED="1558132534572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TDD_xUnit$xUnit_example.coverage" NAME="xUnit_example Coverage Results" MODIFIED="1558020400836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TDD_xUnit$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1558021545109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -52,29 +51,47 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1223125477">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="841" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="841" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="95">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1558128841821" expanded="true" signature="76:81" ph="..." />
+                <marker date="1558132604569" expanded="true" signature="77:82" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bowling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="149">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
-                <marker date="1558128726045" expanded="true" signature="98:103" ph="..." />
+                <marker date="1558132430750" expanded="true" signature="122:127" ph="..." />
               </folding>
             </state>
           </provider>
@@ -90,7 +107,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,7 +125,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="352" />
     <option name="width" value="877" />
     <option name="height" value="842" />
@@ -256,7 +273,7 @@
     <frame x="352" y="0" width="877" height="842" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26805386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,23 +303,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Bowling.py">
+    <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="95">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <marker date="1558128726045" expanded="true" signature="98:103" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1558132604569" expanded="true" signature="77:82" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
+    <entry file="file://$PROJECT_DIR$/Bowling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="149">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1558128841821" expanded="true" signature="76:81" ph="..." />
+            <marker date="1558132430750" expanded="true" signature="122:127" ph="..." />
           </folding>
         </state>
       </provider>
