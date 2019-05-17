@@ -18,6 +18,13 @@ class testBowling(unittest.TestCase):
         self.assertTrue(isinstance(game.game(), list))
         self.assertTrue(sum([sum(one) for one in game.game()])>=0)
         self.assertTrue(sum([sum(one) for one in game.game()])<=300)
+        self.assertTrue(len(game.game()) < 13)
+
+    def testBonusScore(self):
+        game = Bowling()
+        self.assertTrue(game.bonusRoll([[1,2],[0,9]])==[[1,2],[0,9]])
+        self.assertTrue(len(game.bonusRoll([[1,2],[8,2]])) == 3)
+        self.assertTrue(len(game.bonusRoll([[1,2],[10,0]])) == 4)
 
     def testCalculateScore(self):
         game = Bowling()

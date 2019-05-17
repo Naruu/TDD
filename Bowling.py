@@ -1,18 +1,29 @@
 from random import randint
 class Bowling():
-    def __init__(self):
-        self.frameScores = []
-        self.score = []
-
     def roll(self):
         first = randint(0,10)
         second = randint(0,10-first)
         return [first, second]
 
     def game(self):
+        scores = []
         for i in range(10):
-            self.frameScores.append(self.roll())
-        return self.frameScores
+            scores.append(self.roll())
+
+        self.bonusRoll(scores)
+
+        return scores
+
+    def bonusRoll(self,scores):
+        if self.isSpare(scores[-1]):
+            scores.append([randint(0,10),0])
+
+        elif self.isStrike(scores[-1]):
+            scores.append([randint(0,10),0])
+            scores.append([randint(0,10),0])
+
+        return scores
+
 
     def calculateScore(self, L):
         scoreByFrame = []
