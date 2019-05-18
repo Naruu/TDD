@@ -25,11 +25,25 @@ class Bowling():
         return scores
 
 
-    def calculateScore(self, L):
+    def calculateScore(self, frames):
         scoreByFrame = []
-        for one in L:
+        scoreSum = 0
+        for one in frames:
             scoreByFrame.append(sum(one))
-        return sum(scoreByFrame)
+
+        scoreSum = sum(scoreByFrame)
+
+        for i in range(9):
+            if self.isSpare(frames[i]) :
+                scoreSum+=frames[i+1][0]
+
+            if self.isStrike(frames[i]):
+                count = 0
+                if(i+1 < len(frames)):
+                    scoreSum+= sum(frames[i+1])
+                    if self.isStrike(frames[i+1]) and i+2 < len(frames):
+                        scoreSum += frames[i+2][0]
+        return scoreSum
 
     def isSpare(self, L):
         if L[0] != 10 and sum(L)==10:  return True

@@ -28,7 +28,9 @@ class testBowling(unittest.TestCase):
 
     def testCalculateScore(self):
         game = Bowling()
-        self.assertTrue(game.calculateScore([[3,0],[2,2],[6,4]]) == 17)
+        self.assertTrue(game.calculateScore([[5, 1], [7, 2], [10, 0], [10, 0], [10, 0], [3, 1], [2, 5], [8, 1], [3, 5], [8, 1]]) == 119)
+        self.assertTrue(game.calculateScore([[9, 0], [10, 0], [1, 9], [5, 4], [7, 2], [6, 2], [0, 10], [6, 4], [9, 1], [2, 2]]) == 121)
+
 
     def testIsSpare(self):
         game = Bowling()
@@ -41,7 +43,6 @@ class testBowling(unittest.TestCase):
         self.assertTrue(game.isStrike([10,0]))
         self.assertFalse(game.isStrike([2,8]))
         self.assertFalse(game.isStrike([3,2]))
-
 
 if __name__== '__main__':
     unittest.main()
